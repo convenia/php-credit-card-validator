@@ -5,13 +5,15 @@
 Validates popular debit and credit cards numbers against regular expressions and Luhn algorithm.
 Also validates the CVC and the expiration date.
 
+## This package is a Fork of inacho/php-credit-card-validator because it looks like isn't manteined anymore
+
 ## Installation
 
 Require the package in `composer.json`
 
 ```json
 "require": {
-    "inacho/php-credit-card-validator": "1.*"
+    "convenia/credit-card-validator-php": "1.*"
 },
 ```
 
